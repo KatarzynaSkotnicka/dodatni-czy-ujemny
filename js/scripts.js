@@ -1,10 +1,6 @@
-var a,
-	b;
-
-	a = 1;
-	b = 100;
-
-var value = (a * a) - (2 * a * b) + (b * b);
+var a = 1,
+	b = 2,
+	value = (a * a) - (2 * a * b) + (b * b);
 
 if(value > 0) {
 	console.log("wynik dodatni");
